@@ -3,14 +3,12 @@
 - **Student ID**: 314554032
 - **Name**: 江怜儀
 
----
 
 ## Introduction
 
 This project addresses the task of digit detection in natural images using the DETR (DEtection TRansformer) framework with a ResNet-50 backbone. The goal is to identify and localize all digits present in an input RGB image by predicting both their class labels and corresponding bounding boxes. The dataset consists of tens of thousands of labeled images for training and validation, where each annotation follows a COCO-style format with bounding box coordinates and digit categories. 
 Unlike traditional object detection methods that rely on hand-crafted components such as anchor boxes and non-maximum suppression during training, DETR formulates object detection as a direct set prediction problem and leverages a transformer-based architecture to model global relationships within the image. Under the given constraints, this implementation adheres strictly to the use of DETR with a ResNet-50 backbone while optimizing training stability and detection performance.
 
----
 
 ## Environment Setup
 
@@ -18,7 +16,6 @@ Unlike traditional object detection methods that rely on hand-crafted components
 pip install -r requirements.txt
 ```
 
----
 
 ## Usage
 
@@ -45,7 +42,6 @@ pip install -r requirements.txt
     --iou 0.5
     ```
 
----
 
 ## Performance Snapshot
 
