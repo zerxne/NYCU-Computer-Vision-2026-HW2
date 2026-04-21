@@ -22,9 +22,9 @@ pip install -r requirements.txt
 ### Training
 
 #### Training Command
-    ```bash
+```bash
     python train_detr.py
-    ```
+```
 #### Output Files
         1. detr_best.pth → best validation model
         2. detr_last.pth → last epoch
@@ -34,13 +34,13 @@ pip install -r requirements.txt
 
 #### Run Inference
 
-    ```bash
+```bash
     python inference_detr.py \
     --source path_to_image_or_folder \
     --weights detr_best.pth \
     --conf 0.4 \
     --iou 0.5
-    ```
+```
 
 
 ## Performance Snapshot
