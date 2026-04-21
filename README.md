@@ -49,4 +49,4 @@ pip install -r requirements.txt
 
 ## Performance Snapshot
 
-![Results](/HW2/performance.png)
+![Results](performance.png)
