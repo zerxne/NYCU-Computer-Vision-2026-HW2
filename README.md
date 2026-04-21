@@ -36,10 +36,9 @@ pip install -r requirements.txt
 
 ```bash
     python inference_detr.py \
-    --source path_to_image_or_folder \
-    --weights detr_best.pth \
-    --conf 0.4 \
-    --iou 0.5
+        --source data/test \
+        --weights detr_best.pth \
+        --json pred.json
 ```
 
 
